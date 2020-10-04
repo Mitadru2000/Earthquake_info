@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.quakereport.MainActivity"
+    android:title="Quake Settings"
+    >
+    <EditTextPreference
+        android:title="Minimum Magnitude"
+        android:defaultValue="6"
+        android:inputType="numberDecimal"
+        android:key="Min_mag_key"
+        android:selectAllOnFocus="true"
+        />
+    <EditTextPreference
+        android:title="Year"
+        android:defaultValue="2020"
+        android:inputType="numberDecimal"
+        android:key="year_key"
+        android:selectAllOnFocus="true"
+        />
+
+
+</PreferenceScreen>
+
